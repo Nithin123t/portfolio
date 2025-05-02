@@ -1,0 +1,125 @@
+/* About.css */
+
+.about.section {
+    padding: 5rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e0e0e0;
+    position: relative;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .heading {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #00d8ff, #914eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+    animation: fadeIn 1s ease-in-out 0.2s forwards;
+    opacity: 0;
+  }
+  
+  .subheading {
+    font-size: 1.5rem;
+    color: #bbbbbb;
+    margin-bottom: 2.5rem;
+    line-height: 1.8;
+    animation: fadeIn 1s ease-in-out 0.4s forwards;
+    opacity: 0;
+  }
+  
+  .card {
+    background: rgba(20, 20, 20, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 2.5rem;
+    box-shadow: 0 8px 30px rgba(0, 216, 255, 0.08);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #dadada;
+    animation: fadeIn 1s ease-in-out 0.6s forwards;
+    opacity: 0;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 45px rgba(0, 216, 255, 0.15);
+  }
+  
+  .highlight {
+    color: #00d8ff;
+    font-weight: 600;
+  }
+  
+  /* FadeIn */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Tablet View */
+  @media (max-width: 768px) {
+    .about.section {
+      padding: 4rem 1.5rem;
+    }
+  
+    .heading {
+      font-size: 2.4rem;
+    }
+  
+    .subheading {
+      font-size: 1.2rem;
+    }
+  
+    .card {
+      font-size: 1.05rem;
+      padding: 2rem;
+    }
+  }
+  
+  /* 📱 Mobile View (Stacked Layout) */
+  @media (max-width: 480px) {
+    .about.section {
+      padding: 3rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .heading {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .subheading {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+  
+    .card {
+      font-size: 0.95rem;
+      padding: 1.5rem;
+      width: 100%;
+      max-width: 100%;
+      text-align: justify;
+    }
+  }
+  
