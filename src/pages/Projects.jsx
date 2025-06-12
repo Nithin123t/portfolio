@@ -5,7 +5,7 @@ const projectList = [
   {
     title: 'ShopEase - E-Commerce App',
     description: 'A full-stack e-commerce platform with login/signup, cart, payment gateway, and responsive UI.',
-    tech: 'React, Node.js, MongoDB, Stripe',
+    tech: 'React js',
     link: 'https://virtual-mall-three.vercel.app/',
   },
   {
@@ -15,16 +15,16 @@ const projectList = [
     link: '#',
   },
   {
+    title: 'Live Code Execution Platform with Judge0 & MongoDB',
+    description: 'Enhanced a full-stack code editor using React.js, CodeMirror, and Node.js to support real-time execution of JavaScript,Python, C++, and Java via the Judge0 API, improving language support coverage by 60%. Integrated asynchronous token-based polling for result fetching, boosting execution reliability and reducing UI response time by 40%. ',  
+    tech: 'React.js, Node.js, MongoDB, Judge0 API,Postman',
+    link: '#',
+  },
+  {
     title: 'Wrong Posture Detector',
     description: 'Developed a Muscle Strain Detection Device, designed to help individuals prevent back pain by monitoring muscle strain in real-time.The device uses ultrasonic sensors to track posture and body positioning, alerting users when poor posture is detected. This helps in reducing strain on muscles and preventing long-term back issues.  ',
     tech: 'NodeMCU, Buzzers, Ultrasonic Sensors, C++',
     
-  },
-  {
-    title: 'Virtual Shopping Mall',
-    description: 'Developed a full-stack Virtual Mall web application using React, Node.js, MongoDB, and Postman. Implemented dynamic modules including Home, Games, Movies, and Shopping with role-based data management. ',
-    tech: 'React, Node.js, MongoDB, Postman',
-    link: '#',
   },
   {
     title: 'Exports',
