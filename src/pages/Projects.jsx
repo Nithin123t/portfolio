@@ -3,8 +3,8 @@ import './Section.css';
 
 const projectList = [
   {
-    title: 'ShopEase - E-Commerce App',
-    description: 'A full-stack e-commerce platform with login/signup, cart, payment gateway, and responsive UI.',
+    title: 'E-Commerce App',
+    description: 'A full-stack e-commerce platform by showing what are the stores having in the malls, shops, games, and Movie shows.',
     tech: 'React js',
     link: 'https://virtual-mall-three.vercel.app/',
   },
