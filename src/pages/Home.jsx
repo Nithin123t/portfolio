@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import Cube from '../components/Cube';
 import Typewriter from 'typewriter-effect';
 import profileImg from '../assets/passphoto-removebg-preview.png'; // ✅ Use relative path
@@ -49,8 +50,8 @@ const Home = () => {
           </p>
 
           <div className="home-buttons">
-            <a href="/projects" className="btn primary">My Projects</a>
-            <a href="/contact" className="btn secondary">Contact Me</a>
+            <Link to="/projects" className="btn primary">My Projects</Link>
+            <Link to="/contact" className="btn secondary">Contact Me</Link>
           </div>
 
           <div className="home-image">

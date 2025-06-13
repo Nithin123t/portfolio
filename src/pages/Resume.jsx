@@ -10,14 +10,14 @@ const Resume = () => {
 
         <div className="resume-buttons">
           <a
-            href="public/T.Nithinreddy_Resume1 (1).pdf" // Place resume.pdf in your public folder
+            href="/T.Nithinreddy_Resume.pdf"
             download
             className="resume-btn"
           >
             ⬇️ Download Resume
           </a>
           <a
-            href="public/T.Nithinreddy_Resume1 (1).pdf"
+            href="/T.Nithinreddy_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="resume-btn outline"
